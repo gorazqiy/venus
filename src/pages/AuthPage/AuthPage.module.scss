@@ -1,0 +1,56 @@
+.user{
+	padding: 20px 0 35px 0;
+	justify-content: space-around;
+	display: flex;
+	
+}
+
+.registration{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.form{
+	padding-top: 15px;
+	text-align: center;
+
+	input{
+		height: 38px;
+		width: 250px;
+		font-size: 17px;
+		border: 1px solid rgb(187, 187, 187);
+		border-radius: 2px;
+		outline: none;
+		padding-left: 10px;
+		margin: 7px 0;
+		background-color:rgba(0, 0, 0, 0.05);
+
+		&:focus{
+			background-color:rgba(0, 0, 0, 0.15);
+		}
+	}
+}
+
+.logIn{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.button {
+	margin-top: 20px;
+	background-color: #88d0fd;
+	cursor: pointer;
+	border-radius: 2px;
+	padding: 8px 15px;
+	font-size: 17px;
+	;
+	border: none;
+	color: #fff;
+
+	&:hover {
+		background: #2eafff;
+	}
+
+}
